@@ -1,0 +1,3 @@
+include ':lappeview'
+include ':app'
+rootProject.name = "LappeApp"
