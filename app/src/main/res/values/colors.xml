@@ -335,6 +335,6 @@
     <color name="white">#FFFFFF</color>
     <!-- White -->
     <color name="transparent">#B0000000</color>
-    <color name="transparent2">#70FF0000</color>
+    <color name="transparent2">#4CAF50</color>
 
 </resources>

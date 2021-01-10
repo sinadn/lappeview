@@ -33,18 +33,18 @@ class MainActivity : AppCompatActivity() {
         list.add("home")
         list.add("service")
         list.add("contact us")
-        list.add("fAQ")
 
 
         lape.setTitleText(list, R.color.white);
         lape.setFont(ResourcesCompat.getFont(this, R.font.iran_yekan_bold))
-        lape.setMainColor("#70FF0000")
-        lape.setBgTextColor("#ff0000")
+        lape.setMainColor("#864CAF50")
+        lape.setBgTextColor("#4CAF50")
         lape.setScrollView(scrollView)
         lape.onClick(ItemOnClick {
             if (lape.alpha != 0.0f)
                 Toast.makeText(this, "----> " + it, Toast.LENGTH_SHORT).show()
         })
+
 
 
 
