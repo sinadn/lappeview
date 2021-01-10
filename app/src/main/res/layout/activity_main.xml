@@ -6,23 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+<com.example.lappeview.centrallappe.NotifyingScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
 
 
 
-
-
-
-    <com.example.lappeapp.centrallappe.NotifyingScrollView
-        android:id="@+id/scroll"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-
-        >
-
-
-
+    
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
@@ -275,16 +267,22 @@
 
 
         </androidx.appcompat.widget.LinearLayoutCompat>
-    </com.example.lappeapp.centrallappe.NotifyingScrollView>
 
 
-    <com.example.lappeapp.centrallappe.LappeView
-        android:id="@+id/lappe"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+
+
+
+
+
+</com.example.lappeview.centrallappe.NotifyingScrollView>
+
+
+<com.example.lappeview.centrallappe.LappeView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
